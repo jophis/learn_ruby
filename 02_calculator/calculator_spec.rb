@@ -52,18 +52,20 @@ end
 # If you feel you're up for the challenge, fill in the missing code in the tests below,
 # based off the descriptions, and get them to pass.
 
-describe "#multiply" do
+describe "multiply" do
 
   it "multiplies two numbers" do 
+    multiply([2,3]).should == 6
   end
 
   it "multiplies several numbers" do
+    multiply([2,3,4]).should == 24
   end
 
 end
 
 # http://en.wikipedia.org/wiki/Factorial
-describe "#factorial" do
+describe "factorial" do
 
   it "computes the factorial of 0" do
   end
